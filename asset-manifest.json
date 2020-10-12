@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Blogapp-using-MERN/static/css/main.a1d0157e.chunk.css",
+    "main.js": "/Blogapp-using-MERN/static/js/main.d269d863.chunk.js",
+    "main.js.map": "/Blogapp-using-MERN/static/js/main.d269d863.chunk.js.map",
+    "runtime-main.js": "/Blogapp-using-MERN/static/js/runtime-main.adcc9ebc.js",
+    "runtime-main.js.map": "/Blogapp-using-MERN/static/js/runtime-main.adcc9ebc.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/Blogapp-using-MERN/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.81d386fd.chunk.js": "/Blogapp-using-MERN/static/js/2.81d386fd.chunk.js",
+    "static/js/2.81d386fd.chunk.js.map": "/Blogapp-using-MERN/static/js/2.81d386fd.chunk.js.map",
+    "index.html": "/Blogapp-using-MERN/index.html",
+    "precache-manifest.ee788a6420a35e9ba9f12581195e589f.js": "/Blogapp-using-MERN/precache-manifest.ee788a6420a35e9ba9f12581195e589f.js",
+    "service-worker.js": "/Blogapp-using-MERN/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/Blogapp-using-MERN/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.a1d0157e.chunk.css.map": "/Blogapp-using-MERN/static/css/main.a1d0157e.chunk.css.map",
+    "static/js/2.81d386fd.chunk.js.LICENSE.txt": "/Blogapp-using-MERN/static/js/2.81d386fd.chunk.js.LICENSE.txt",
+    "static/media/asset-1.png": "/Blogapp-using-MERN/static/media/asset-1.171cd5d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.adcc9ebc.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.81d386fd.chunk.js",
+    "static/css/main.a1d0157e.chunk.css",
+    "static/js/main.d269d863.chunk.js"
+  ]
+}
