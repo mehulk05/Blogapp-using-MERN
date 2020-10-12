@@ -1,0 +1,40 @@
+.featured-user h3{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.featured-user ul li{
+    margin-bottom: 20px;
+    box-shadow: 0 5px 40px -10px rgba(0,0,0,.1);
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 25px 15px
+}
+
+.featured-user li>a{
+    display: inline-block;
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+    float: left;
+}
+
+.featured-user img{
+    width: 65px;
+    float: left;
+    height: 65px;
+    border-radius: 50%;
+
+}
+.podcaster a:hover,
+.podcaster a{
+    color: rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+.d-block.username{
+    font-weight: bold;
+    
+}
+.podcaster a .d-block.username:hover{
+    text-decoration: underline;
+}

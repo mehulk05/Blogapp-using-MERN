@@ -1,0 +1,15 @@
+.profile img{
+    width: 134px!important;
+    height: 135px;
+}
+
+.profile h2{
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.profile a{
+    padding: 0 8px;
+    border: 1px solid #757575;
+    border-radius: 5px;
+}
