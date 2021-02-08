@@ -35,10 +35,15 @@ export class CreatePost extends Component {
 
         let path = this.props.match.path
         let id = this.props.match.params.id
+        const storedData = JSON.parse(localStorage.getItem('profileData'));
+        if (!storedData && path == "/create") {
+                this.props.history.push("/createProfile")
+        }
         if (path === "/edit/:id") {
             this.setState(pre => ({
                 isloading: true
             }))
+
             Axios.get("/posts/" + id).then(data => {
                 let post = data.data
                 this.setState({
@@ -56,6 +61,7 @@ export class CreatePost extends Component {
                     });
                 })
         }
+        console.log(this.state)
     }
 
     imageHandler = (id, value, isValid) => {
@@ -219,6 +225,7 @@ export class CreatePost extends Component {
             {iserror}
             <div className="container container-short">
                 <form onSubmit={this.mySubmitHandler} className="pt-4">
+                <h3 className="text-center mb-3">Create Profile</h3>
                     <div className="form-group">
                         <label htmlFor="title">Title </label>
                         <input

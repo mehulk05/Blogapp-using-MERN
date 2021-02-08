@@ -22,8 +22,7 @@ function ShowPost(props) {
             setpost({ ...props, user: data.data.profile })
         })
             .catch(e => {
-                setErrorCode(e.response.status)
-                setErrorMsg(e.response.data.message)
+                setLoading(false)
             })
 
     }, [props])

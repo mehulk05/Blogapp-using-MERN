@@ -226,8 +226,9 @@ export class CreatePost extends Component {
             {iserror}
             <div className="container container-short">
                 <form onSubmit={this.mySubmitHandler} className="pt-4">
+                    <h3 className="text-center mb-3">Create Profile</h3>
                     <div className="form-group">
-                        <label htmlFor="username">Title </label>
+                        <label htmlFor="username">Username </label>
                         <input
                             type='username'
                             name='username'
@@ -244,7 +245,7 @@ export class CreatePost extends Component {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="password">Description </label>
+                        <label htmlFor="password">Password </label>
                         <textarea
                             type='text'
                             name='bio'
@@ -278,7 +279,7 @@ export class CreatePost extends Component {
                             disabled={this.state.Post.username && this.state.Post.bio && this.state.Post.imagePath
                                 ? '' : 'disabled'}
                         >
-                            Submit
+                            Create Profile
                         </button>
                     </div>
                 </form>
