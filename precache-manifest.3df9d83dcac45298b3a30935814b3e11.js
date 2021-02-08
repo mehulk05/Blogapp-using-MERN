@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4cbd383af40b3df59aa9560dda960876",
+    "revision": "195c783f5874b20a9f375072bce312a5",
     "url": "/Blogapp-using-MERN/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blogapp-using-MERN/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "aaca52e434bb682fe16e",
+    "revision": "9a6197fcb033132058a5",
     "url": "/Blogapp-using-MERN/static/css/main.d853b3cf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Blogapp-using-MERN/static/js/2.81d386fd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aaca52e434bb682fe16e",
-    "url": "/Blogapp-using-MERN/static/js/main.9841358d.chunk.js"
+    "revision": "9a6197fcb033132058a5",
+    "url": "/Blogapp-using-MERN/static/js/main.3026428c.chunk.js"
   },
   {
     "revision": "0044862a76ac19084d9d",
