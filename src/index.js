@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import 'jquery/dist/jquery.js';
 setInterval(async () => {
-  axios.get("http://zany-periodic-fisherman.glitch.me/test").then(data=>{
+  axios.get("https://zany-periodic-fisherman.glitch.me/test").then(data=>{
   console.log(data)
 })
 .catch(e=>{
@@ -20,7 +20,7 @@ setInterval(async () => {
 
 
 //axios.defaults.baseURL = 'http://localhost:3001/api';
-axios.defaults.baseURL = 'http://zany-periodic-fisherman.glitch.me/api';
+axios.defaults.baseURL = 'https://zany-periodic-fisherman.glitch.me/api';
     let userData =  JSON.parse(localStorage.getItem("userData"))
     let token
     if(userData){
